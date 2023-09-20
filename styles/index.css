@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+.you-tube:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.3s ease 0s;
+}
+.credit-card:hover {
+    transform: scale(50%); 
+    transition: all 1s ease 0s; 
+}
+.clock:hover {
+    cursor: pointer;
+    fill: peachpuff;
+    stroke: aquamarine;
+    transform: scale(1.1);
+    transition: all 0.3s ease 0s; 
+}
+.clock-hand-minute:hover {
+    cursor: pointer;
+    fill: aquamarine;
+    stroke: lightpink;
+}
+.clock-hand-hour:hover {
+    cursor: pointer;
+    fill: aquamarine;
+    stroke: lightpink;
+}
+.shuttle-space {
+    fill: blue;
+    stroke: black;
+    stroke-width: 3px;
+    scale: 30%;
+}
+.shuttle-space:hover {
+    cursor: pointer;
+    fill: aquamarine;
+    stroke: lightpink;
+}
